@@ -30,21 +30,38 @@
               </nav>
 
 
-              <h2>Contact</h2>
-        
-        
-                <hr>
-            
-             <form action="mailto:benoitballs24@yahoo.com" name="contactForm" enctype="multipart/form-data" method="POST">
-                <p>Name</p>
-                <input type:"text"></input>
-                <p>Email</p>
-                <input type:"text" value="email@example.com"></input>
-                <p>Message:</p>
-                <textarea rows="10" value="Leave your message here"></textarea>
+              <div class="container">
                 <br>
-                <input type="submit" value="Submit">
-            </form>
+                  <div class="row">
+                    
+                    <div class="col-md-2"></div>
+                    
+                    <div class="col-md-2">
+                        <h2>Contact</h2>
+                    </div>
+              
+                    <div class="col-md-8"></div>
+                  </div>
+              </div>
+        
+            <div class="container">
+              <div class="row">
+                <div class="col-md-2"></div>
+
+                <div class="col-md-8">
+                  <form action="mailto:benoitballs24@yahoo.com" name="contactForm" enctype="multipart/form-data" method="POST">
+                    <p>Name</p>
+                    <input type:"text"></input>
+                    <p>Email</p>
+                    <input type:"text" value="email@example.com"></input>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="col-md-2"></div>
         </div>
 
 </body>
