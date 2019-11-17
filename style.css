@@ -1,3 +1,32 @@
-.imgsize {
-    width: 300px;
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/surface-lightweight-brick-background-surface-lightweight-bricks-surface-lightweight-brick-background-brick-153034345.jpg);
+};
+
+.thumbnail-text-center {
+    position: relative;
+    width: 250px;
+}
+
+.text-block {
+    position: absolute;
+    top: 300px;
+    width: 19.3%;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+
+.text-block2 {
+    position: absolute;
+    top: 525px;
+    width: 19.3%;
+    text-align: center;
+    background-color: #4aaaa5;
+}
+
+.text-block3 {
+    position: absolute;
+    top: 750px;
+    width: 19.3%;
+    text-align: center;
+    background-color: #4aaaa5;
 }
