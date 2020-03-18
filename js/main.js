@@ -287,7 +287,7 @@
 	};
 
 	function initLazyImages() {
-		const lazyImages = document.querySelectorAll("");
+		const lazyImages = document.querySelectorAll("div");
 	  
 		function onIntersection(imageEntities) {
 		  imageEntities.forEach(image => {
