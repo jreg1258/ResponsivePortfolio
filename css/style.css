@@ -37,6 +37,10 @@ p {
   color: white;
 }
 
+.project-title {
+  color: #fff
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Playfair Display", Georgia, serif;
@@ -990,7 +994,7 @@ body.offcanvas {
       margin-bottom: 15px; }
       .project .desc h3 a {
         color: #fff; }
-        
+
     .project .desc span {
       display: block;
       color: rgba(255, 255, 255, 0.7);
